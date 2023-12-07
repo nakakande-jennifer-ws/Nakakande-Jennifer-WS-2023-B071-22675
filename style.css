@@ -1,0 +1,33 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: 'Times New Roman', Times, serif;
+} 
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar
+{
+    background-image: linear-gradient(to right, #a516a5,#0e0d0d);
+    padding: 0 !important;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    color: rgb(255, 240, 249) !important;
+    font-weight: 300;
+    float: right;
+    text-align: left;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
